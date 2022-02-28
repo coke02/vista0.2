@@ -1,0 +1,52 @@
+body {
+  min-height: 100vh; 
+  margin: 30px;
+  background: #83a4d4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.titulo {
+  height: 600px;
+  /*border:2px solid #afcde3;*/
+  border-radius: 7px;
+}
+
+.titulo1 {
+  border-radius: 7px;
+}
+
+.dato {
+  height: 300px;
+  /*border:2px solid #022e4e;*/
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+  margin:2px;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  color: #fff;
+}
+
+.carousel {
+  border-radius: 20px 20px 20px 20px;
+  overflow: hidden;
+}
+
+.row {
+  display: block !important;
+}
+
+[class*="col-md-"] {
+  float: left;
+}
